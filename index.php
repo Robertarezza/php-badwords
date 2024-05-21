@@ -14,6 +14,8 @@
     <div class="container">
 
         <h1>Scrivi un testo e poi dimmi quale porola vuoi che sia censurata con ***</h1>
+
+        <!-- nel form action scrivo il percorso del file -->
         <form action="greeting.php" method="GET">
             <div class="container-fluid">
                 <textarea class="form-control form-control-lg" placeholder="scrivi qui il testo" rows="5" name="user_write" style="width: 50vw; height: 100px";></textarea>
